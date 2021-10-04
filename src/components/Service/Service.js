@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Button } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 import StarRatings from 'react-star-ratings';
 
 const Service = (props) => {
@@ -23,7 +23,6 @@ const Service = (props) => {
                     <Card.Text>
                         {desc.slice(0, 140)}
                     </Card.Text>
-                    <Button variant="outline-danger">Read More</Button>
                     </Card.Body>
                 </Card>
             </Col>

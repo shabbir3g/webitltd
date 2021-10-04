@@ -254,6 +254,11 @@ button.btn-danger {
   background: #e56505;
 }
 
+button.btn-danger:hover {
+  background: #e56505;
+  opacity: 0.9;
+}
+
 @media all and (max-width: 500px) {
   h2 {
     font-size: 27px !important;
